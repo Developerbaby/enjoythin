@@ -1,9 +1,9 @@
 def get_db_uri(dbinfo):
-    username = dbinfo.get('user') or "LQW"
-    password = dbinfo.get('pwd') or "LQW666666"
+    username = dbinfo.get('user') or "root"
+    password = dbinfo.get('pwd') or "111111"
     host = dbinfo.get('host') or "localhost"
     port = dbinfo.get('port') or "3306"
-    database = dbinfo.get('dbname') or "tpp"
+    database = dbinfo.get('dbname') or "Enjoythin"
     driver = dbinfo.get('driver') or "pymysql"
     dialect = dbinfo.get('dialect') or "mysql"
 
@@ -26,13 +26,13 @@ class DevelopConfig(Config):
     # MAIL_PASSWORD = "19910320hu"
 
     DATABASE = {
-        "user": "LQW",
-        "pwd": "LQW666666",
+        "user": "root",
+        "pwd": "111111",
         "host": "127.0.0.1",
         "port": "3306",
         "dialect": "mysql",
         "driver": "pymysql",
-        "dbname": "tpp",
+        "dbname": "Enjoythin",
 
     }
 
@@ -43,13 +43,13 @@ class TestingConfig(Config):
     TESTING = True
 
     DATABASE = {
-        "user": "LQW",
-        "pwd": "LQW666666",
+        "user": "root",
+        "pwd": "111111",
         "host": "127.0.0.1",
         "port": "3306",
         "dialect": "mysql",
         "driver": "pymysql",
-        "dbname": "tpp",
+        "dbname": "Enjoythin",
 
     }
 
@@ -60,13 +60,13 @@ class ShowConfig(Config):
     DEBUG = True
 
     DATABASE = {
-        "user": "LQW",
-        "pwd": "LQW666666",
+        "user": "root",
+        "pwd": "111111",
         "host": "127.0.0.1",
         "port": "3306",
         "dialect": "mysql",
         "driver": "pymysql",
-        "dbname": "tpp",
+        "dbname": "Enjoythin",
 
     }
 
@@ -77,13 +77,13 @@ class ProductConfig(Config):
     DEBUG = True
 
     DATABASE = {
-        "user": "LQW",
-        "pwd": "LQW666666",
+        "user": "root",
+        "pwd": "111111",
         "host": "127.0.0.1",
         "port": "3306",
         "dialect": "mysql",
         "driver": "pymysql",
-        "dbname": "tpp",
+        "dbname": "Enjoythin",
 
     }
 
